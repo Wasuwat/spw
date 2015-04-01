@@ -13,7 +13,7 @@ public class Enemy extends Sprite{
 	
 	public Enemy(int x, int y) {
 		super(x, y, 5, 15);
-		
+
 	}
 
 	@Override
@@ -43,5 +43,6 @@ public class Enemy extends Sprite{
 	
 	public boolean isAlive(){
 		return alive;
+		
 	}
 }

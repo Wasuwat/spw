@@ -16,10 +16,11 @@ public abstract class Sprite {
 		this.width = width;
 		this.height = height;
 	}
-
+	
 	abstract public void draw(Graphics2D g);
 	
 	public Double getRectangle() {
 		return new Rectangle2D.Double(x, y, width, height);
+		
 	}
 }
